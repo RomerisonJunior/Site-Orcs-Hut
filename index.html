@@ -29,5 +29,44 @@
                 </ul>
             </nav>
         </header>
+
+        <main>
+            <div class="container">
+                <ul class="carda"></ul>
+
+                <aside>
+                    <div class="pesquisa">
+                        <input
+                            type="text"
+                            placeholder="Procure seu Produto"
+                            id="box_pesquisa"
+                        />
+                        <button class="pesquisaButton" onclick="pesquisa()">
+                            Pesquisar
+                        </button>
+                    </div>
+
+                    <section>
+                        <h1>Carrinho de Compras</h1>
+
+                        <ul class="carrinho"></ul>
+
+                        <div class="compra">
+                            <div class="texto">
+                                <p>Quantidade</p>
+
+                                <p>Total:</p>
+                            </div>
+
+                            <div class="valorCompra">
+                                <p id="quant">0</p>
+
+                                <p id="valorFinal">R$0,00</p>
+                            </div>
+                        </div>
+                    </section>
+                </aside>
+            </div>
+        </main>
     </body>
 </html>
